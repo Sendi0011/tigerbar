@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    color: rgb(78, 16, 16);
+}
+
+header{
+    background-color: gray;
+}
+
+nav{
+    display: flex;
+    text-decoration: none;
+}
+
+li{
+    display: flex;
+    display: inline;
+    padding: 10px;
+}
+ ul, a{
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    justify-content: end;
+    color: black;
+    transform: translate(50%);
+}
+section, img{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0%;
+}
+
+footer{
+    display: flex;
+    background-color: grey;
+    transform: translate(10);
+
+}
+ 
+
